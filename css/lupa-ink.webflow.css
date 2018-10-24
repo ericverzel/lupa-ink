@@ -1184,7 +1184,7 @@ p {
   margin-bottom: 20px;
   background-image: none;
   font-family: 'Great Vibes', cursive;
-  color: #000;
+  color: #fff;
   font-size: 97px;
   line-height: 113px;
   font-weight: 400;
@@ -1551,6 +1551,7 @@ p {
 }
 
 .phone {
+  margin-top: -30px;
   margin-bottom: 30px;
   font-family: Montserrat, sans-serif;
   color: #fff;
@@ -2207,6 +2208,7 @@ html.w-mod-js *[data-ix="loading-section"] {
   }
   .heading.scorpio-branding {
     margin-left: 5px;
+    color: #fff;
     font-size: 75px;
     line-height: 116px;
   }
@@ -2255,6 +2257,10 @@ html.w-mod-js *[data-ix="loading-section"] {
     display: block;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .phone {
+    color: #fff;
+    text-decoration: none;
   }
   .galerie-section {
     height: auto;
