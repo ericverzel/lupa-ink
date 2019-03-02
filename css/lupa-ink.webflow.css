@@ -210,8 +210,12 @@ p {
 }
 
 .nav-link.w--current {
-  background-color: #1a1a1a;
+  background-color: #000;
   color: #efa4cd;
+}
+
+.nav-link.w--current:hover {
+  background-color: #0e0d0d;
 }
 
 .wide-container {
@@ -339,8 +343,8 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 134, 163, .5)), to(rgba(188, 134, 163, .5))), url('../images/buu.jpeg');
-  background-image: linear-gradient(180deg, rgba(188, 134, 163, .5), rgba(188, 134, 163, .5)), url('../images/buu.jpeg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(188, 134, 163, .5)), to(rgba(188, 134, 163, .5))), url('../images/woman-1439909_1920.jpg');
+  background-image: linear-gradient(180deg, rgba(188, 134, 163, .5), rgba(188, 134, 163, .5)), url('../images/woman-1439909_1920.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
@@ -372,10 +376,10 @@ p {
 
 .big-heading {
   position: relative;
-  margin-top: 115px;
+  margin-top: 31px;
   color: #fff;
   font-size: 71px;
-  line-height: 90px;
+  line-height: 75px;
 }
 
 .faded {
@@ -1068,7 +1072,7 @@ p {
   height: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url('../images/Group-3.svg');
+  background-image: url('../images/menu-icon2x_1menu-icon2x.png');
   background-position: 50% 50%;
   background-size: 16px;
   background-repeat: no-repeat;
@@ -1165,6 +1169,10 @@ p {
   background-color: #1f1f26;
 }
 
+.divider.nav-divider {
+  height: 5px;
+}
+
 .brand {
   position: absolute;
   left: 0px;
@@ -1172,7 +1180,7 @@ p {
   width: 60px;
   height: 60px;
   background-color: #efa4cd;
-  background-image: url('../images/logo-last.png');
+  background-image: url('../images/thumbnail_IMG_4229.jpg');
   background-position: 0px 50%;
   background-size: 118px;
   background-repeat: no-repeat;
@@ -1181,9 +1189,9 @@ p {
 .brand.w--current {
   border: 0px none #000;
   background-color: #ffd9ee;
-  background-image: url('../images/logo-last.png');
-  background-position: 0px 50%;
-  background-size: 123px;
+  background-image: url('../images/logo-lupa-png.png');
+  background-position: 50% 50%;
+  background-size: 148px;
   background-repeat: no-repeat;
 }
 
@@ -1553,19 +1561,19 @@ p {
 }
 
 .slide {
-  background-image: url('../images/kjkjkj.jpeg');
+  background-image: url('../images/fotonoticia_20180912142903_640.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .slide-2 {
-  background-image: url('../images/makue.jpeg');
+  background-image: url('../images/microblading-hintergrund.jpg');
   background-position: 50% 0px;
   background-size: 940px;
 }
 
 .slide3 {
-  background-image: url('../images/jjj.jpeg');
+  background-image: url('../images/Microblading-sourcils-3D-www.lookandstyle.com_.jpg');
   background-position: 50% 0px;
   background-size: 940px;
 }
@@ -1700,22 +1708,22 @@ p {
 
 .client {
   background-color: #1f1f26;
-  background-image: url('../images/image9.jpg');
+  background-image: url('../images/52837053_967818653422560_6945075706632077312_n.jpg');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .client._2 {
-  background-image: url('../images/image8.jpg');
+  background-image: url('../images/52713824_266587897614941_9021909444715347968_n.jpg');
 }
 
 .client._3 {
-  background-image: url('../images/image7.jpg');
+  background-image: url('../images/50274388_1215313695306842_1415673469038755840_n.jpg');
 }
 
 .client._4 {
-  background-image: url('../images/unnamed.jpg');
+  background-image: url('../images/ht.jpg');
 }
 
 .client._5 {
@@ -1723,15 +1731,15 @@ p {
 }
 
 .client._6 {
-  background-image: url('../images/image5.jpg');
+  background-image: url('../images/53020186_954648771591211_8637096485416075264_n.jpg');
 }
 
 .client._7 {
-  background-image: url('../images/image2.jpg');
+  background-image: url('../images/50418381_1254165098083942_7276033821898702848_n.jpg');
 }
 
 .client._8 {
-  background-image: url('../images/image3.jpg');
+  background-image: url('../images/thumbnail_loupa-a-faire2.jpg');
 }
 
 .client6 {
@@ -1836,9 +1844,9 @@ p {
   width: 80px;
   height: 80px;
   border-radius: 80px;
-  background-image: url('../images/logo-brown.png');
-  background-position: 0px 50%;
-  background-size: 174px;
+  background-image: url('../images/logo-lupa-png.png');
+  background-position: 50% 50%;
+  background-size: 300px;
   background-repeat: no-repeat;
 }
 
@@ -1903,6 +1911,7 @@ p {
 
 .testimonial-paragraph {
   color: rgba(31, 31, 38, .79);
+  text-align: center;
 }
 
 .slide-3 {
