@@ -2353,9 +2353,9 @@ html.w-mod-js *[data-ix="loading-section"] {
     width: 260px;
   }
   .brand.w--current {
-    background-image: url('../images/logo-last.png'), -webkit-gradient(linear, left top, left bottom, from(#ffcfe9), to(#ffcfe9));
-    background-image: url('../images/logo-last.png'), linear-gradient(180deg, #ffcfe9, #ffcfe9);
-    background-position: 1px 50%, 0px 0px;
+    background-image: url('../images/logo-lupa-png.png'), -webkit-gradient(linear, left top, left bottom, from(#ffcfe9), to(#ffcfe9));
+    background-image: url('../images/logo-lupa-png.png'), linear-gradient(180deg, #ffcfe9, #ffcfe9);
+    background-position: 50% 50%, 0px 0px;
     background-size: 120px, auto;
     background-repeat: no-repeat, repeat;
   }
